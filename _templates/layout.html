@@ -1,0 +1,13 @@
+{# custom_layout.html - Extend default Sphinx HTML layout for YouTube activation guide #}
+
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+    <meta name="google-site-verification" content="SfOIuzL9bJTnG1s15n1tw8mrW8WlYZXf4LA0cdqffuM" />
+    <meta name="msvalidate.01" content="671DFC03B959E91643B7D7567E37E46A" />
+    <meta name="description" content="Learn how to activate YouTube on your smart TV, console, or streaming device using yt.be/activate. Step-by-step instructions to sign in quickly and securely." />
+    <meta name="keywords" content="yt.be/activate, YouTube activation, YouTube TV sign in, activate YouTube device, enter activation code" />
+    <meta name="robots" content="index, follow" />
+    <title>How to Use yt.be/activate to Connect Your Device to YouTube – Step-by-Step Guide</title>
+    {{ super() }}
+{% endblock %}
